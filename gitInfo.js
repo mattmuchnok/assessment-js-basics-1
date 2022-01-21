@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = `Git is a version control software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.`
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,6 +19,7 @@
 */
 
 //CODE HERE
+let gitHubDefinition = `GitHub is a cloud-based hosting service that lets you manage Git repositories.`
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -26,6 +28,7 @@
 */
 
 //CODE HERE
+let gitInitDefinition = `Creates a new Git repo`
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -34,6 +37,7 @@
 */
 
 //CODE HERE
+let gitCloneDefinition = `A command line utility which is used to target an existing repo and create a clone, or copy of the target repo.`
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -42,6 +46,7 @@
 */
 
 //CODE HERE
+let gitStatusDefinition = `Displays the state of the working directory and the staging area`
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -53,6 +58,9 @@
 */
 
 //CODE HERE
+let gitAddDefinition = `Adds a change in the working directory to the staging area; It tells Git that you want to include updates to a particular file in the next commit.`
+
+let gitAddCode = `git add .`
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -64,7 +72,9 @@
 */
 
 //CODE HERE
+let gitCommitDefinition = `Captures a snapshot of the project's currently staged changes`
 
+let gitCommitCode = `git commit -m "initial commit"`
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +83,4 @@
 */
 
 //CODE HERE
+let gitPushDefinition = `Used to upload local repository content to a remote repository`
